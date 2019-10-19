@@ -4,3 +4,19 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://raw.githubusercontent.com/thekuwayama/chg/master/LICENSE.txt)
 
 `chg` is Concurrent Http Get command.
+
+## Usage
+
+```bash
+$ chg -help
+Usage of chg:
+  -n int
+        number of workers (default 4)
+```
+
+```bash
+$ cat << EOS | chg
+> https://YOUR_URL_1
+> https://YOUR_URL_2
+> EOS
+```
