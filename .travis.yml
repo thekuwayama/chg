@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - 1.13
+
+script:
+  - diff <(go fmt ./) <(printf "")
+  - go vet ./...
+  - go test -v -race ./...
