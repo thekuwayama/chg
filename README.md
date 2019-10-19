@@ -5,6 +5,7 @@
 
 `chg` is Concurrent Http Get command.
 
+
 ## Usage
 
 ```bash
@@ -20,3 +21,8 @@ $ cat << EOS | chg
 > https://YOUR_URL_2
 > EOS
 ```
+
+
+## License
+
+The CLI is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
