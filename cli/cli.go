@@ -4,7 +4,7 @@ import (
 	"flag"
 	"runtime"
 
-	"github.com/thekuwayama/chg/lib"
+	"github.com/thekuwayama/chg/concurrent_http_get"
 )
 
 var nWorker = flag.Int("n", runtime.NumCPU(), "number of workers")

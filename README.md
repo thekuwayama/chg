@@ -17,8 +17,8 @@ Usage of chg:
 
 ```bash
 $ cat << EOS | chg
-> https://YOUR_URL_1
-> https://YOUR_URL_2
+> YOUR_URL_1
+> YOUR_URL_2
 > EOS
 ```
 
